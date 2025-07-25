@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" media="screen and (min-width: 1028px)" href="style/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1028px)" href="style/desktopstyle.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="style/tabletstyle.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="style/mobilestyle.css">
+
+</head>
+
+<body>
+   <div id="root">
+     <div>
+        <h1>Temparature Convertor</h1>
+        <p> Write a program that get the number and a letter. if the letter is "f", the program should treat the number
+            enterd as temperature in degree fahrenheit and convert it to the temperature in degree Celsius and print a
+            suitable message. If the letter is "c", the program should consider the number as Celsius tempareture and
+            convert it to Fahrenheit temperature and print a suitable message. The program should display error message
+            and the exit if the use enters any other letter.
+        </p>
+        <select name="" id="choice">
+            <option value="F">Farenhites to Celcius</option>
+            <option value="C">Celcius to Farenhites</option>
+        </select>
+        <input type="number" id="temp" placeholder="Enter Your temparature"> <button
+            onclick="myFunction()">Check</button>
+        <p id="output"></p>
+    </div>
+   </div>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
